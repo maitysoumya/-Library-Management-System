@@ -1,0 +1,31 @@
+This is a web-based Library Management System supporting Admin and User roles.
+The system includes Maintenance, Transactions, and Reports modules.
+
+## Roles
+### Admin
+- Maintenance
+- Transactions
+- Reports
+
+### User
+- Transactions
+- Reports
+
+## Features
+- Book Issue & Return
+- Fine Calculation & Payment
+- Membership Management
+- User Management
+- Book/Movie Management
+- Validation on all forms
+
+## Validation Rules
+- Mandatory fields enforced
+- Radio buttons: single selection
+- Checkboxes: checked = Yes, unchecked = No
+- Date validations as per business rules
+
+## Technology Stack
+- Frontend: HTML, CSS, JavaScript
+- Backend: Node.js / Express (assumed)
+- Database: SQL-based (assumed)
