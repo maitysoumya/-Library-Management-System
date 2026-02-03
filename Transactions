@@ -1,0 +1,35 @@
+Book Availability
+At least one filter required
+
+Error if none selected
+
+Radio button per available book row
+
+Book Issue
+Book name required
+
+Author auto-filled (read-only)
+
+Issue Date ≥ Today
+
+Return Date = Today + 15 (editable ≤ 15)
+
+Remarks optional
+
+Return Book
+Book Name mandatory
+
+Serial No mandatory
+
+Issue Date auto (read-only)
+
+Return Date editable
+
+Confirm → Pay Fine page always
+
+Fine Pay
+Fine Paid checkbox mandatory if fine exists
+
+No fine → confirm completes transaction
+
+Book not returned until fine confirmed
