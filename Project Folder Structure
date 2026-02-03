@@ -1,0 +1,56 @@
+README.md
+├── package.json                 (if using Node.js)
+├── .gitignore
+│
+├── database/
+│   ├── schema.sql
+│   └── seed.sql
+│
+├── public/
+│   ├── css/
+│   │   └── style.css
+│   │
+│   ├── js/
+│   │   ├── validations.js
+│   │   ├── dateRules.js
+│   │   └── navigation.js
+│   │
+│   └── images/
+│
+├── src/
+│   ├── auth/
+│   │   ├── login.html
+│   │   └── loginController.js
+│   │
+│   ├── maintenance/
+│   │   ├── addBook.html
+│   │   ├── updateBook.html
+│   │   ├── addMembership.html
+│   │   ├── updateMembership.html
+│   │   ├── userManagement.html
+│   │   └── maintenanceController.js
+│   │
+│   ├── transactions/
+│   │   ├── searchBook.html
+│   │   ├── issueBook.html
+│   │   ├── returnBook.html
+│   │   ├── payFine.html
+│   │   └── transactionController.js
+│   │
+│   ├── reports/
+│   │   ├── bookAvailability.html
+│   │   ├── issuedBooks.html
+│   │   └── reportController.js
+│   │
+│   ├── common/
+│   │   ├── header.html
+│   │   ├── footer.html
+│   │   ├── chartLink.html
+│   │   └── roleGuard.js
+│   │
+│   └── app.js
+│
+└── server/
+    ├── routes.js
+    ├── controllers.js
+    └── db.js
